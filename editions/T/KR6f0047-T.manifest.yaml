@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6f0047/T/v1
+canonical_location: https://kanripo.org/bkk/KR6f0047/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 入法界體性經
+  identifiers:
+    krp: KR6f0047
+    cbeta: T12n0355
+    cbeta_old_id: T12n0355
+    authorityid: CA0002681
+    json_key: T0355
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0355.xml
+    old_id: T12n0355
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0047_000-T.yaml, hash: 'sha256:39a0dc104f47a513814eb2db9fc71039cd8a881651ea719ccc3bc643b5109ea2'}
+  - {seq: 1, filename: KR6f0047_001-T.yaml, hash: 'sha256:6af72ac7711555cf9db8ba4ab1d23f344ce358774ece331b66ba49a9ff7af200'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6f0047_000-T.markers.yaml, hash: 'sha256:82a3a27fc7cd828991d2c9e9f57a7ddcbcb4fb82f81936cd6583e9561fe0cc04'}
+  - {seq: 1, role: markers, filename: assets/KR6f0047_001-T.markers.yaml, hash: 'sha256:f7b1474353812461299b90cedf469517ecb9426c5498c2708f7a333845bdc571'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0047_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4215
+  label: 入法界體性經
+  type: juan
+  level: 1
+hash: sha256:6a0fc351f86608e24b96da19357167ddf0e33d3e2db8b966d7b70bc493fbbf69
